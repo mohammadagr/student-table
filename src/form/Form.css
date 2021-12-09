@@ -1,0 +1,73 @@
+.open-button {
+    background-color: #282c34;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 10px;
+    right: 80px;
+    width: 150px;
+    display: block;
+}
+
+.close-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    left: 228px;
+    display: flex;
+    margin-left: 280px;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    position: fixed;
+    bottom: 60px;
+    right: 1px;
+    /*border: 3px solid #f1f1f1;*/
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    width: 300px;
+    height: 660px;
+    padding: 10px;
+    background-color: #282c34;
+    text-align: center;
+    color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+#submitQueryBtn {
+    background-color: #142F43;
+    border: none;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
